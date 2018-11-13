@@ -7,11 +7,13 @@ body {
     background: url(../../assets/images/tiny-squares.jpg) repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    
 }
 
 header {background: #ffffff;
 border-bottom: 3px solid #cccccc;
-margin-bottom: 25px;
+margin-left: 0;
+
  }
 
 h1 {background: #4aaaa5;
@@ -31,8 +33,7 @@ a {color: #cccccc;
 }
 
 p {font-size: 18px;
-    line-height: 25px;
-     display: inline-block;   
+    line-height: 25px;     
 }
 
 
@@ -50,19 +51,27 @@ margin-bottom: 15px;
 .content {background:#ffffff;
 padding: 20px;
 border: solid 3px #cccccc;
-
+margin-top: 30px;
 }
 
-.img { float: left;
+#paragraph {}
+
+img {height: 200px;
+width: 200px;
+float: left;
 margin: 0 10px 10px 0;
-}
+border: solid 5px #4aaaa5;}
 
-footer {
+footer {position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
     background: #666666;
     color: white;
     text-align: center;
     border-top: solid 3px #4aaaa5;
     padding: 10px 0
+    
 }
 
 
