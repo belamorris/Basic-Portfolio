@@ -7,6 +7,7 @@ body {
     background: url(../../assets/images/tiny-squares.jpg) repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    margin: 0;
     
 }
 
@@ -32,7 +33,7 @@ text-align: center;}
 a {color: #cccccc;
 }
 
-p {font-size: 18px;
+p {font-size: 20px;
     line-height: 25px;     
 }
 
@@ -49,18 +50,80 @@ margin-bottom: 15px;
 }
 
 .content {background:#ffffff;
-padding: 20px;
+padding: 40px;
 border: solid 3px #cccccc;
 margin-top: 30px;
 }
 
-#paragraph {}
+
 
 img {height: 200px;
 width: 200px;
 float: left;
 margin: 0 10px 10px 0;
 border: solid 5px #4aaaa5;}
+
+form label {display: block;
+padding: 10px;}
+
+form input {width: 100%
+
+}
+
+form textarea {width: 100%
+}
+
+button {background-color: #4aaaa5;
+padding: 10px 30px;
+margin-top: 10px;
+color: white;
+font-size: 28px;
+border: 0;}
+
+.port-image {height: 200px;
+width: 25%;
+text-align: center;
+padding: 10px 20px;
+margin: 15px;
+display: inline-block;
+}
+
+.item1 {
+background: url(../../assets/images/animals-h-c-207-278-1.jpg)  no-repeat;
+background-size: cover;
+float: left;
+}
+
+.item2 {background: url(../../assets/images/business-h-c-207-278-9.jpg) no-repeat;
+    background-size: cover;
+    float: right;
+margin-right: 40%;}
+
+.item3 {background: url(../../assets/images/city-h-c-207-278-4.jpg) no-repeat;
+background-size: cover;
+float: left;}
+
+.item4 {background: url(../../assets/images/technics-h-c-207-278-5.jpg) no-repeat;
+background-size: cover;
+float: right;
+margin-right: 40%}
+
+.item5 {background: url(../../assets/images/technics-h-c-207-278-6.jpg) no-repeat;
+background-size: cover;
+}
+
+h4 {width: 123%;
+    height: 25%;
+background: #4aaaa5;
+text-align: center;
+padding: 13px 0 ;
+color: white;
+margin: 0 0;
+border: 0;
+position: relative;
+bottom: -130px;
+left: -20px;
+}
 
 footer {position: fixed;
     bottom: 0;
